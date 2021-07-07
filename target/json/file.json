@@ -1,1 +1,96 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-07T03:22:22.776Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"io.cucumber.java.Scenario.log(String)\" because \"this.Scenario\" is null\r\n\tat com.VIP.StepDefs.StepDefs.openingBrowser(StepDefs.java:30)\r\n",
+              "duration": 9727785800,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.VIP.StepDefs.StepDefs.openingBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "user is able to login with correct username and password",
+        "description": "",
+        "id": "login;user-is-able-to-login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1840661700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.VIP.StepDefs.StepDefs.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 444843700,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": ": user is on login page",
+            "match": {
+              "location": "com.VIP.StepDefs.StepDefs.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": ": user is enter username as \"8459705488\" and password as \"Nikhil@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8459705488\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Nikhil@1234\"",
+                  "offset": 57
+                }
+              ],
+              "location": "com.VIP.StepDefs.StepDefs.user_is_enter_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": ": user is able to access this URL",
+            "match": {
+              "location": "com.VIP.StepDefs.StepDefs.user_is_able_to_access_this_url()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login:"
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:features/login.feature",
+    "tags": []
+  }
+]
